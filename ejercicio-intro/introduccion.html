@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina 1</title>
+    <!-- El # es para definir el nombre de un id en especifico -->
+    <style>
+        #encabezado{
+            color: aqua;
+        }
+        .lorem-daily{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- Comentarios en html -->
+
+    <!-- Etiquetas de encabezados o headers 
+        Representan el titulo de algun articulo dentro de mi html
+        La buena práctica solo es uitilizar un h1 en toda una página -->
+    <div>
+        <h1>Hello everyone!</h1>
+        <h2>Hello everyone!</h2>
+        <h3>Hello everyone!</h3>
+        <h4>Hello everyone!</h4>
+        <h5>Hello everyone!</h5>
+        <h6>Hello everyone!</h6>    
+    </div>
+
+    <!-- Etiquetas de párrafo -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto minus quas, voluptas consequuntur id dignissimos!</p>
+    
+    <!--Etiquetas de regla horizontal-->
+    <h4>Lorem</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto minus quas, voluptas consequuntur id dignissimos!</p>
+    <hr>
+    <h4>Lorem</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto minus quas, voluptas consequuntur id dignissimos!</p>
+    <hr>
+    <h4>Lorem</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto minus quas, voluptas consequuntur id dignissimos!</p>
+    <hr>
+
+    <!-- Etiquetas de anclaje o hipervinculos ulr
+         En el siguiente ejemplo se utiliza blank para que la nueva pagina se abra en otra pestaña -->
+    <a href="https://www.google.com" target="_self">Haz click aquí para navegar dentro de la web</a>
+    <br>
+    <a href="./externo.html" target="_blank">Visitar nueva página</a>
+
+    <!-- Listas dentro de hml
+    ul   Lista desordenada o viñetas
+    ol   Lista ordenada o numerada
+    li   Elemento de lista -->
+
+    <h4>Lista de utiles</h4>
+    <ul>
+        <li>Lapices</li>
+        <li>Colores</li>
+        <li>Marcadores</li>
+    </ul>
+
+    <h4>Tabla de clasificación</h4>
+    <ol>
+        <li>Oro</li>
+        <li>Bronce</li>
+        <li>Plata</li>
+    </ol>
+
+    <!-- ol>li*5{valor} Para crear varias etiquetas-->
+    <!-- <ol>
+        <li>valor</li>
+        <li>valor</li>
+        <li>valor</li>
+        <li>valor</li>
+        <li>valor</li>
+    </ol> -->
+
+    <!-- Etiquetas de imagen (De manera local para no tener problemas de que se pierda por alguna eliminación)
+         En el siguiente ejemplo se crea una imagen que funciona como link -->
+    <a href="https://www.google.com" target="_blank">
+    <img src="./assets/0Y4A0812.JPG" alt="avatar mi mascota"></a>
+
+    <!-- div: agrupar uno o más elementos html dentro de un contenedor
+     span:nos permite seleccionar textos dentro de un parrafo y manipular a través de CSS y JS -->
+
+     <!-- Atributos id y class
+          id (#) es un articulo que nos permite diferenciar un elemento de manera unica
+          class (.) representa un conjunto de elementos que los identificaremos a través de este nombre -->
+            <h1 id="encabezado">Mi mascota</h1>
+            <p class="lorem-daily">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, quidem?</p>
+            <p class="lorem-daily">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, fugiat!</p>
+            <p class="lorem-daily">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, deserunt?</p>
+
+</body>
+</html>
